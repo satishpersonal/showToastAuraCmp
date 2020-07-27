@@ -1,0 +1,16 @@
+<!-- ********************************************************************************************
+* @Author:       Accenture IDC 
+* @Date:         21/JUL/2020
+* @Description: A Reusable Toast component to Display the Toast Messages [https://unofficialsf.com/show-toast-flow-action/]
+* @Revision(s): [Date] - [Change Reference] - [Changed By] - [Description]
+*********************************************************************************************** -->
+<aura:component implements="lightning:availableForFlowActions">
+    <aura:attribute name="type" type="string" default="success" />
+    <aura:attribute name="title" type="string" />
+    <aura:attribute name="message" type="string" />    
+    <aura:attribute name="key" type="string" default="" />
+    <aura:attribute name="mode" type="string" default="dismissable" />
+    <aura:attribute name="duration" type="string" default="10" />
+    <aura:attribute name="urlLink" type="string" />
+    <aura:attribute name="urlLabel" type="string" />
+</aura:component>
